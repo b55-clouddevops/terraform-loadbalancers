@@ -11,3 +11,8 @@ module "alb-private" {
   ALB_NAME                  = roboshop-private
   INTERNAL                  = true
 }
+
+
+
+
+condition ? true_val : false_val
